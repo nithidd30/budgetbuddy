@@ -1,0 +1,183 @@
+/* CoinFlip.css */
+/*.coin-flip-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    text-align: center;
+
+  }
+  
+  .coin-image {
+    width: 250px;
+    height: 250px;
+  }
+ .h1-coin{
+text-align: center;
+
+  }
+  */
+
+
+  /* CoinFlip.css */
+
+  .coin-flip-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+ 
+  }
+  
+  .coin-flip-container {
+    /* background-color: white; */
+margin-bottom: 10px;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* width: 100%; */
+    margin-top: 5%;
+    margin-bottom: 20px;
+    height: 60vh;
+    width:500px;
+      
+
+   
+/* margin-bottom: 10vh; */
+    /* background-image: url("https://media.istockphoto.com/id/1146572785/photo/us-dollar-coin-on-edge-spinning-white-background-frozen-in-motion.jpg?s=2048x2048&w=is&k=20&c=tDRSuHmdcdIkFuygM0ywIOF3OVAFSEKFyU-uigMAT5g=");  */
+  /* background-image: url("https://unigrinds.ie/wp-content/uploads/2020/11/3761-1024x683-1.jpg"); */
+    background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+  
+  .h1-coin {
+    font-size: 5em;
+   
+    color: #333;
+    text-align: center;
+
+  }
+  
+  .flip-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .flip-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .coin-image {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .h2-coin{
+    text-align: center;
+  }
+  .coin-button{
+width: 80px;
+  }
+
+
+
+
+
+
+
+  /* CoinFlip.css */
+
+.coin-flip-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-color: #f0f0f0; */
+    /* background-color: ; */
+     /* background-image: url("C:\Users\nived\OneDrive\Desktop\Navbar\nav\nav\src\assets\CoinFlip\Screen Recordings\Screen Recording 2024-07-29 152017.mp4");  */
+  
+     background-image: url("https://www.shutterstock.com/image-photo/hand-throwing-coin-on-white-260nw-1043250901.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+  
+  .coin-flip-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    /* background-image: url("https://www.shutterstock.com/image-photo/hand-throwing-coin-on-white-260nw-1043250901.jpg"); */
+  }
+  
+  .h1-coin {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .coin-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .coin-button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .coin-button:hover:enabled {
+    background-color: #0056b3;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .coin-image {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .flipping .coin-image {
+    transform: rotateY(360deg);
+  }
+  
+  .h2-coin {
+    margin-bottom: 20px;
+  padding-bottom: 20px;
+  }

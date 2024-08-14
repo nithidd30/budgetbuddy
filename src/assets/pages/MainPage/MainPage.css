@@ -1,0 +1,87 @@
+.main-container {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4e54c8;
+}
+
+.nav a {
+  margin: 0 1rem;
+  color: #4e54c8;
+  text-decoration: none;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.sign-in {
+  margin-right: 1rem;
+  color: #4e54c8;
+  text-decoration: none;
+}
+
+.get-started {
+  padding: 0.5rem 1rem;
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.intro {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.intro h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.mservices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mservice {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 1rem;
+  flex: 1 0 200px;
+  max-width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+}
+
+.mservice:hover {
+  transform: translateY(-10px); /* Slightly lifts the card up */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.mservice h3 {
+  margin-top: 1rem;
+  color: #4e54c8;
+}
+
+.mservice p {
+  color: #666;
+}

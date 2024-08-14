@@ -1,0 +1,60 @@
+.services-description {
+  padding: 20px;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  margin-bottom: 51px;
+
+}
+
+
+.services-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-intro {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-heading {
+  font-size: 2rem;
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-item {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.services-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.services-link:hover {
+  text-decoration: underline;
+}
+
+.services-note {
+  font-size: 1rem;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}

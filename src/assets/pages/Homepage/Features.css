@@ -1,0 +1,40 @@
+/* Features.css */
+
+.features-container {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.feature-item {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for smooth effect */
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-item:hover {
+  transform: scale(1.05); /* Slightly increase size */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.Fh2 {
+  color: #000;
+}

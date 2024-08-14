@@ -1,0 +1,30 @@
+.r{
+    color: whitesmoke;
+    
+
+}
+.ragu
+{
+ color: white;
+}
+.abth2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+    /* background-color: (193, 231, 193); */
+  }
+  .abtp
+{
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 25px;
+}
+.second_container
+{
+  margin-top: 100px;
+  margin-bottom: 0%;
+}

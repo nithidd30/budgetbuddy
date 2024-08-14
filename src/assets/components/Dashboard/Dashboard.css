@@ -1,0 +1,58 @@
+/* AdminDashboard.css */
+.admin-dashboard {
+  display: flex;
+}
+
+.admin-nav {
+  width: 200px;
+  background: #333;
+  color: #fff;
+}
+
+.admin-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-nav ul li {
+  padding: 10px;
+}
+
+.admin-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* UserManagement.css */
+.user-management table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-management th, .user-management td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.user-management th {
+  background: #f4f4f4;
+}
+
+/* SystemStats.css */
+.system-stats .stat-item {
+  margin-bottom: 20px;
+}
+
+.system-stats .stat-item h3 {
+  margin: 0;
+}
+
+.system-stats .stat-item p {
+  font-size: 24px;
+  margin: 5px 0 0;
+}

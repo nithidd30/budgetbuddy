@@ -1,0 +1,111 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150 px;
+  }
+  .page-container {
+    background-color: #ADD8E6; /* Light blue background color */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    padding: 20px 0; /* Vertical padding for some space at the top and bottom */
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+  }
+  
+  .about-content {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul li {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-content a {
+    color: var(--btn_primary_color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .about-content a:hover {
+    color: var(--btn_primary_hover_color);
+  }
+  
+  .about-content {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul li {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-content a {
+    color: var(--btn_primary_color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .about-content a:hover {
+    color: var(--btn_primary_hover_color);
+  }
+  

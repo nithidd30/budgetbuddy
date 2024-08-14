@@ -1,0 +1,73 @@
+.pricing-container {
+  background: #fafafa;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.pricing-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricing-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pricing-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.pricing-card .btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #4e54c8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pricing-card .btn:hover {
+  background-color: #3c3fae;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pcarousel-container {
+  flex: 1;
+  height: 300px;
+  margin-left: 20px;
+}
+
+.pcarousel .slide img {
+  height: 200%;
+  object-fit: cover;
+  object-position: center;
+}

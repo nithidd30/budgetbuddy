@@ -1,0 +1,98 @@
+.navbar {
+  width: 100%;
+  line-height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  top: 0;
+  box-shadow: -0.2rem 0.4rem 1.4rem -0.6rem rgba(162, 152, 152, 0.58);
+  -webkit-box-shadow: -0.2rem 0.4rem 1.4rem -0.6rem rgba(162, 152, 152, 0.58);
+  -moz-box-shadow: -0.2rem 0.4rem 1.4rem -0.6rem rgba(162, 152, 152, 0.58);
+  z-index: 5;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #0b243b;
+  /* margin-left: 0%; */
+}
+.navbar .left {
+  flex: 1;
+  margin-left: 7rem;
+  display: flex;
+  align-items: end;
+}
+.navbar .left img {
+  height: 8rem;
+  background-size: cover;
+}
+.navbar .left span {
+  font-size: 3.5rem;
+  font-weight: 200;
+  color: #262626;
+  margin-left: 1rem;
+}
+.navbar .left span::first-letter {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.navbar .right {
+  flex: 1;
+  margin-right: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .right ul {
+  display: flex;
+  list-style: none;
+}
+.navbar .right ul li {
+  font-size: 2rem;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+.navbar .right ul li a {
+  color: #002244;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 0.4rem;
+}
+
+/* Added styles */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #002244;
+}
+
+.profile-icon:hover {
+  color: #ff5733;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #333dff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+}

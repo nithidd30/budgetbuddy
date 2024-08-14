@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 100px; /* Add some gap between cards */
+  /* background: linear-gradient(to bottom, #0b243b, #3a92c3); */
+  flex-wrap: wrap; /* Wrap the cards if there are many */
+  margin-bottom: ;
+}
+.Sh1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #000000;
+  /* background-color: (193, 231, 193); */
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 280px;
+  border-radius: 12px;
+  background: #095c89;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  opacity: 0.6;
+  left: -50%;
+  top: 35px;
+  background-color: #ada9a9;
+  border-radius: 40%;
+  animation: wave 5s infinite linear;
+}
+
+.wave:nth-child(2) {
+  top: 40px;
+  animation: wave 7s infinite linear;
+}
+
+.wave:nth-child(3) {
+  top: 45px;
+  animation: wave 9s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #000000;
+  z-index: 10;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+
+.title {
+  margin-top: 1rem;
+}
+
+span {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.go-to-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+
+.go-to-link:hover {
+  background-color: #3059ea;
+  /* text-decoration: wavy; */
+}

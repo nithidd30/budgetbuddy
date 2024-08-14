@@ -1,0 +1,14 @@
+/* src/pages/Analytics.css */
+.analytics-container {
+    padding: 20px;
+    
+  }
+  
+  .chart-container {
+    margin-bottom: 40px;
+    /* align-items: center; */
+  }
+  
+  .Analytics-h2{
+    text-align: center;
+  }
